@@ -1,0 +1,16 @@
+# ai-builder-journey/.gitignore
+
+# Secrets : ne JAMAIS commiter
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Windows
+Thumbs.db
+desktop.ini
