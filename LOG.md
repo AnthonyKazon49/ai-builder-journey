@@ -11,7 +11,9 @@ S2 (12-16 oct) : Security Checker opérationnel
 | 2026-10-15 | ~4 h | Revue S1+S2 ; exercice Power BI (modèle en étoile, table de dates, relation inactive) ; Security Checker : parcours du dépôt (commit d243273) | Une seule route active entre 2 tables, colonne de tri, os.walk qui saute .git/.venv, toujours tester qu'un détecteur détecte | Mesures DAX + contrôle qualité des données |
 | 2026-10-16 | 5 h | Cube Power BI partie 1 : 8 mesures DAX (CALCULATE, USERELATIONSHIP, AVERAGEX, SAMEPERIODLASTYEAR), 4 anomalies de données traitées | Un total juste ne prouve rien sur la répartition ; on supprime une copie, on corrige un champ, on signale un référentiel | Partie 2 : restitution |
 | 2026-10-19 | ~5 h | Préparation orale (pitch, histoires, simulation) + exercice Excel de reporting (jointure RECHERCHEX, doublons NB.SI, TCD) + hub Notion de suivi | Contrôler l'unicité d'une clé avant une jointure ; comparer à période égale ; SOMME.SI.ENS avec dates à retravailler | Refaire l'exercice Excel Q3 à Q7 |
+| 2026-10-30 | 5 h | Revue CEO : nouvelle allocation de novembre (projet fil rouge SAS et Python, 1 h par jour d'AI Builder), tri complet du backlog, révision Python | Fibonacci : deux variables et affectation simultanée a, b = b, a + b | Lundi : cadrage du fil rouge + hook pre-commit du Security Checker |
 | 2026-11-02 | | Tri du backlog, recentrage de novembre sur un projet fil rouge SAS + Python | Un backlog non trié pendant 10 jours brouille toutes les décisions | Cadrage du fil rouge |
+| 2026-11-03 | 1 h 30 | Fil rouge pilotage assurance emprunteur (données fictives) : dépôt Git, ordre des programmes SAS/Python, générateur de dataset (760 000 lignes), 00_config.sas et sources sur SAS OnDemand | dlcreatedir ne crée qu'un niveau ; contrôler BRUT avant de nettoyer ; aucune donnée dans Git ; serveur en UTC | Écrire 01_ingestion.sas |
 
 ## Streak
 Jours actifs consécutifs : 1
